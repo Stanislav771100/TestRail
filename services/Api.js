@@ -1,24 +1,18 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'https://ekreativeqa.testrail.io'
-
+axios.defaults.baseURL = 'https://redmine.ekreative.com'
 export function getProjects () {
-  return axios.get('/index.php?/api/v2/get_projects', {
-    // headers: {
-    //     'Content-Type': 'application/json',
-
-  
-    //   },
-      name: 'device@ekreative.com',
-      password: 'QaTestPass1'
+  return axios.get('/projects.json', {
+    headers: {
+      // 'Content-Type': 'application/json'
+      'X-Redmine-API-Key': '2fda745bb4cdd835fdf41ec1fab82a13ddc1a54c'
+    }
   })
 }
 export function getIssues () {
   return axios.get('/issues.json', {
     headers: {
       // 'Content-Type': 'application/json'
-      name: 'device@ekreative.com',
-      password: 'QaTestPass1'
-
+      'X-Redmine-API-Key': '2fda745bb4cdd835fdf41ec1fab82a13ddc1a54c'
     }
   })
 }

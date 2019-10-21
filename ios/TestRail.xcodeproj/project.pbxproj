@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TestRailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestRailTests.m */; };
+		015E282EA8C7EF36571675CD /* libPods-TestRailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E2A0F085A2A70DA7175E10 /* libPods-TestRailTests.a */; };
 		029821EA78C2418B97604B57 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2463D0B7146669602DE08 /* Octicons.ttf */; };
 		0808B5EDFE7348C1AEAF691D /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A141FD79CAC048B9B88F8085 /* Feather.ttf */; };
 		0E369607D7814530963A1301 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60FE331F1A7147BC8BEFC681 /* rubicon-icon-font.ttf */; };
@@ -21,23 +22,23 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TestRailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestRailTests.m */; };
-		36984BC72FF09E20D3E578AA /* libPods-TestRail-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6A5D003060317585D3D977 /* libPods-TestRail-tvOSTests.a */; };
+		2DFD5904235DD6EE001344BA /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFD5903235DD6EE001344BA /* libRNGestureHandler.a */; };
+		2FD5D120054D5A6276680922 /* libPods-TestRail-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F91EEF557497B713E157C81 /* libPods-TestRail-tvOSTests.a */; };
+		3186E3C65AB3836A8762904D /* libPods-TestRail-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F084BAA1E2DA61B6341601 /* libPods-TestRail-tvOS.a */; };
 		5F2DC76CF98F41FAAA690E22 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA496B6A42A43A89129AF82 /* FontAwesome5_Regular.ttf */; };
 		6520E7DC1FDF41C2A6CF5D32 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7787A1A79B545C99EBE6A13 /* EvilIcons.ttf */; };
 		6608F16D88BA4514B2B1D756 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A06F66DBEC438A903AE0F4 /* AntDesign.ttf */; };
 		66FB80159C84443DAF0E22E0 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223AE47AF4DB400E9687548B /* Roboto.ttf */; };
 		67F7998B7D154F13B8F0330D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58B302FB24D6405DAF0E59FD /* FontAwesome.ttf */; };
 		6925E8F9E0324BC0B30D3696 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40511EF309424914B7CF6391 /* Ionicons.ttf */; };
+		6ADCFD386E375DF33BB487FE /* libPods-TestRail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9AC408361D7A96EED9AE8D /* libPods-TestRail.a */; };
 		89CDC3A2F7584576A20E853C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C61E6932721A45E6B9299813 /* Entypo.ttf */; };
 		92D6FDF2E22D47DA85B0CFBD /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 153EEA4A76694A9DA56B837A /* Fontisto.ttf */; };
 		979E928A34C84BB3B7AF53CF /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094101D5B29C432895EFE214 /* Foundation.ttf */; };
 		98BD065387A24CCE9B991372 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED081584F71442FCBA6E9F0C /* Zocial.ttf */; };
-		9B1D94C849D511E6E0B67316 /* libPods-TestRailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D4517FD58951287B53235A /* libPods-TestRailTests.a */; };
 		A41FFB46CAF9483BB96D9F7E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84044C9C0BF42BABD254BA6 /* MaterialCommunityIcons.ttf */; };
-		D1BE77F5CD3F3DF6077E8A74 /* libPods-TestRail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECA570ADFF20362A983E508 /* libPods-TestRail.a */; };
 		DD806E2AAACE4F3CBD847748 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC528CC203D4609941DE0E4 /* MaterialIcons.ttf */; };
 		ED04E02572F642AEA707A33F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0ABE030106F4C9AA9359ADD /* SimpleLineIcons.ttf */; };
-		FCD7687CFC965CA052FF97B1 /* libPods-TestRail-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F96740E8FB5375D9E6510DB /* libPods-TestRail-tvOS.a */; };
 		FF017AEE504F41BDB18386A3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA88F4BE09524FF78CF67A46 /* FontAwesome5_Solid.ttf */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		00E356F21AD99517003FC87E /* TestRailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRailTests.m; sourceTree = "<group>"; };
 		094101D5B29C432895EFE214 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		0BA496B6A42A43A89129AF82 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		11F084BAA1E2DA61B6341601 /* libPods-TestRail-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270B6DDC881275D5184FFC1 /* Pods-TestRail-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOS/Pods-TestRail-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TestRail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestRail/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestRail/AppDelegate.m; sourceTree = "<group>"; };
@@ -73,38 +76,40 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestRail/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestRail/main.m; sourceTree = "<group>"; };
 		153EEA4A76694A9DA56B837A /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		19D4517FD58951287B53235A /* libPods-TestRailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17952BBB4A4E74A7AFD0C4C0 /* Pods-TestRail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail.release.xcconfig"; path = "Target Support Files/Pods-TestRail/Pods-TestRail.release.xcconfig"; sourceTree = "<group>"; };
 		1F1CBA40484B450ABE6FE393 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		223AE47AF4DB400E9687548B /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
-		22D895FD96C32E067EC5904D /* Pods-TestRail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail.release.xcconfig"; path = "Target Support Files/Pods-TestRail/Pods-TestRail.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TestRail-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRail-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestRail-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestRail-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F6A5D003060317585D3D977 /* libPods-TestRail-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C4C3341CACE1F6586589232 /* Pods-TestRail-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOSTests/Pods-TestRail-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		3ECA570ADFF20362A983E508 /* libPods-TestRail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE84029235DB43D00AE976E /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE84039235DB6B700AE976E /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFD58EA235DD0B0001344BA /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFD5903235DD6EE001344BA /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F91EEF557497B713E157C81 /* libPods-TestRail-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40511EF309424914B7CF6391 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		41627E178E7EB8658FC61BA1 /* Pods-TestRail-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOS/Pods-TestRail-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		58B302FB24D6405DAF0E59FD /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		60FDB3430AD6466C91A0569E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		60FE331F1A7147BC8BEFC681 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		71B71B80D418BB6B8D391199 /* Pods-TestRailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRailTests.release.xcconfig"; path = "Target Support Files/Pods-TestRailTests/Pods-TestRailTests.release.xcconfig"; sourceTree = "<group>"; };
-		747B898A135B75CE0E26DF01 /* Pods-TestRailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRailTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRailTests/Pods-TestRailTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F96740E8FB5375D9E6510DB /* libPods-TestRail-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACCD7250FE573BF1D1716CF /* Pods-TestRail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail.debug.xcconfig"; path = "Target Support Files/Pods-TestRail/Pods-TestRail.debug.xcconfig"; sourceTree = "<group>"; };
+		7F9AC408361D7A96EED9AE8D /* libPods-TestRail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455AE6171D2B643C1A6E9AC /* Pods-TestRailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRailTests.release.xcconfig"; path = "Target Support Files/Pods-TestRailTests/Pods-TestRailTests.release.xcconfig"; sourceTree = "<group>"; };
+		8881FA79DC0E2BB00A412072 /* Pods-TestRailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRailTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRailTests/Pods-TestRailTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC2463D0B7146669602DE08 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		9755196EEAA84BA079B234C3 /* Pods-TestRail-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOS/Pods-TestRail-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC528CC203D4609941DE0E4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		A0ABE030106F4C9AA9359ADD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		A141FD79CAC048B9B88F8085 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		B6E49F7A6CF10AB3774F631F /* Pods-TestRail-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOSTests/Pods-TestRail-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D1449474CEDDCDEE13EC95 /* Pods-TestRail-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOSTests/Pods-TestRail-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C61E6932721A45E6B9299813 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		C84044C9C0BF42BABD254BA6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		CA88F4BE09524FF78CF67A46 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		D4A06F66DBEC438A903AE0F4 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D4E2A0F085A2A70DA7175E10 /* libPods-TestRailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7787A1A79B545C99EBE6A13 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		D904F4CD46E09275EF5AFA63 /* Pods-TestRail-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOS/Pods-TestRail-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED081584F71442FCBA6E9F0C /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F30CE5EEDCE6B3454B3F03FE /* Pods-TestRail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail.debug.xcconfig"; path = "Target Support Files/Pods-TestRail/Pods-TestRail.debug.xcconfig"; sourceTree = "<group>"; };
+		F49D9C758619B2D731082639 /* Pods-TestRail-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRail-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestRail-tvOSTests/Pods-TestRail-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1D94C849D511E6E0B67316 /* libPods-TestRailTests.a in Frameworks */,
+				015E282EA8C7EF36571675CD /* libPods-TestRailTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BE77F5CD3F3DF6077E8A74 /* libPods-TestRail.a in Frameworks */,
+				2DFD5904235DD6EE001344BA /* libRNGestureHandler.a in Frameworks */,
+				6ADCFD386E375DF33BB487FE /* libPods-TestRail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD7687CFC965CA052FF97B1 /* libPods-TestRail-tvOS.a in Frameworks */,
+				3186E3C65AB3836A8762904D /* libPods-TestRail-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36984BC72FF09E20D3E578AA /* libPods-TestRail-tvOSTests.a in Frameworks */,
+				2FD5D120054D5A6276680922 /* libPods-TestRail-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,12 +183,16 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DFD5903235DD6EE001344BA /* libRNGestureHandler.a */,
+				2DFD58EA235DD0B0001344BA /* libRNGestureHandler.a */,
+				2DE84039235DB6B700AE976E /* libRNGestureHandler.a */,
+				2DE84029235DB43D00AE976E /* libRNGestureHandler.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3ECA570ADFF20362A983E508 /* libPods-TestRail.a */,
-				8F96740E8FB5375D9E6510DB /* libPods-TestRail-tvOS.a */,
-				2F6A5D003060317585D3D977 /* libPods-TestRail-tvOSTests.a */,
-				19D4517FD58951287B53235A /* libPods-TestRailTests.a */,
+				7F9AC408361D7A96EED9AE8D /* libPods-TestRail.a */,
+				11F084BAA1E2DA61B6341601 /* libPods-TestRail-tvOS.a */,
+				3F91EEF557497B713E157C81 /* libPods-TestRail-tvOSTests.a */,
+				D4E2A0F085A2A70DA7175E10 /* libPods-TestRailTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,14 +226,14 @@
 		7DAA35C250A718B6EF4D8598 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F30CE5EEDCE6B3454B3F03FE /* Pods-TestRail.debug.xcconfig */,
-				22D895FD96C32E067EC5904D /* Pods-TestRail.release.xcconfig */,
-				41627E178E7EB8658FC61BA1 /* Pods-TestRail-tvOS.debug.xcconfig */,
-				D904F4CD46E09275EF5AFA63 /* Pods-TestRail-tvOS.release.xcconfig */,
-				B6E49F7A6CF10AB3774F631F /* Pods-TestRail-tvOSTests.debug.xcconfig */,
-				3C4C3341CACE1F6586589232 /* Pods-TestRail-tvOSTests.release.xcconfig */,
-				747B898A135B75CE0E26DF01 /* Pods-TestRailTests.debug.xcconfig */,
-				71B71B80D418BB6B8D391199 /* Pods-TestRailTests.release.xcconfig */,
+				6ACCD7250FE573BF1D1716CF /* Pods-TestRail.debug.xcconfig */,
+				17952BBB4A4E74A7AFD0C4C0 /* Pods-TestRail.release.xcconfig */,
+				9755196EEAA84BA079B234C3 /* Pods-TestRail-tvOS.debug.xcconfig */,
+				1270B6DDC881275D5184FFC1 /* Pods-TestRail-tvOS.release.xcconfig */,
+				B5D1449474CEDDCDEE13EC95 /* Pods-TestRail-tvOSTests.debug.xcconfig */,
+				F49D9C758619B2D731082639 /* Pods-TestRail-tvOSTests.release.xcconfig */,
+				8881FA79DC0E2BB00A412072 /* Pods-TestRailTests.debug.xcconfig */,
+				8455AE6171D2B643C1A6E9AC /* Pods-TestRailTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -269,7 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TestRailTests" */;
 			buildPhases = (
-				7F7F6F75369D50BC709E0747 /* [CP] Check Pods Manifest.lock */,
+				84B72176FCB8650605049BFC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -288,12 +298,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TestRail" */;
 			buildPhases = (
-				7E2A44AE59BF181F96073DB4 /* [CP] Check Pods Manifest.lock */,
+				78B8FF14EC1E25CF6F35FE39 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				7098FBD415A778C1474CB002 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,7 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestRail-tvOS" */;
 			buildPhases = (
-				5602A3B931FBB482FF4D3A79 /* [CP] Check Pods Manifest.lock */,
+				8CFA686C45C2410EECF2FC14 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -328,7 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestRail-tvOSTests" */;
 			buildPhases = (
-				11864380E2036DEE7869F61A /* [CP] Check Pods Manifest.lock */,
+				2BF1CDA1C46FF93D1444FF0C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -354,14 +365,21 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B7Z44378WK;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = B7Z44378WK;
+						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B7Z44378WK;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B7Z44378WK;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -417,8 +435,8 @@
 				DD806E2AAACE4F3CBD847748 /* MaterialIcons.ttf in Resources */,
 				029821EA78C2418B97604B57 /* Octicons.ttf in Resources */,
 				11C7BC2AE98747368560BB15 /* Roboto_medium.ttf in Resources */,
-				66FB80159C84443DAF0E22E0 /* Roboto.ttf in Resources */,
 				0E369607D7814530963A1301 /* rubicon-icon-font.ttf in Resources */,
+				66FB80159C84443DAF0E22E0 /* Roboto.ttf in Resources */,
 				ED04E02572F642AEA707A33F /* SimpleLineIcons.ttf in Resources */,
 				98BD065387A24CCE9B991372 /* Zocial.ttf in Resources */,
 			);
@@ -454,9 +472,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		11864380E2036DEE7869F61A /* [CP] Check Pods Manifest.lock */ = {
+		2BF1CDA1C46FF93D1444FF0C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,29 +510,55 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5602A3B931FBB482FF4D3A79 /* [CP] Check Pods Manifest.lock */ = {
+		7098FBD415A778C1474CB002 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-TestRail/Pods-TestRail-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestRail-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestRail/Pods-TestRail-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7E2A44AE59BF181F96073DB4 /* [CP] Check Pods Manifest.lock */ = {
+		78B8FF14EC1E25CF6F35FE39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,7 +580,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F7F6F75369D50BC709E0747 /* [CP] Check Pods Manifest.lock */ = {
+		84B72176FCB8650605049BFC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -552,6 +596,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestRailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFA686C45C2410EECF2FC14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRail-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -663,9 +729,11 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 747B898A135B75CE0E26DF01 /* Pods-TestRailTests.debug.xcconfig */;
+			baseConfigurationReference = 8881FA79DC0E2BB00A412072 /* Pods-TestRailTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = B7Z44378WK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -686,10 +754,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71B71B80D418BB6B8D391199 /* Pods-TestRailTests.release.xcconfig */;
+			baseConfigurationReference = 8455AE6171D2B643C1A6E9AC /* Pods-TestRailTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = B7Z44378WK;
 				INFOPLIST_FILE = TestRailTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -706,12 +776,17 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30CE5EEDCE6B3454B3F03FE /* Pods-TestRail.debug.xcconfig */;
+			baseConfigurationReference = 6ACCD7250FE573BF1D1716CF /* Pods-TestRail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = B7Z44378WK;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestRail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -720,17 +795,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TestRail;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22D895FD96C32E067EC5904D /* Pods-TestRail.release.xcconfig */;
+			baseConfigurationReference = 17952BBB4A4E74A7AFD0C4C0 /* Pods-TestRail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7Z44378WK;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestRail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -739,13 +819,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TestRail;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41627E178E7EB8658FC61BA1 /* Pods-TestRail-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 9755196EEAA84BA079B234C3 /* Pods-TestRail-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -754,6 +835,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B7Z44378WK;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "TestRail-tvOS/Info.plist";
@@ -773,7 +855,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D904F4CD46E09275EF5AFA63 /* Pods-TestRail-tvOS.release.xcconfig */;
+			baseConfigurationReference = 1270B6DDC881275D5184FFC1 /* Pods-TestRail-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -801,7 +883,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6E49F7A6CF10AB3774F631F /* Pods-TestRail-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = B5D1449474CEDDCDEE13EC95 /* Pods-TestRail-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -809,6 +891,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B7Z44378WK;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "TestRail-tvOSTests/Info.plist";
@@ -828,7 +911,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C4C3341CACE1F6586589232 /* Pods-TestRail-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F49D9C758619B2D731082639 /* Pods-TestRail-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -899,7 +982,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -945,7 +1028,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

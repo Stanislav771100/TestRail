@@ -1,12 +1,325 @@
-import React, { Component } from 'react';
-import { Container, Header, Tab, Tabs, ScrollableTab, Text, View } from 'native-base';
+import React, {Component} from 'react';
+import DatePicker from 'react-native-datepicker';
+import RNPickerSelect from 'react-native-picker-select';
+import {postTime} from '../services/Api';
 
-export default class Customizations extends Component {
-  render() {
-    return (
-<View>
-    <Text>Active</Text>
-</View>
-    );
+import {connect} from 'react-redux';
+import {addPlace} from '../services/Root/actions/place';
+
+import {CheckBox} from 'react-native-elements';
+import {
+  StyleSheet,
+  View,
+  Platform,
+  Button,
+  TextInput
+} from 'react-native';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+
+
+
+
+  export class Customization extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        projects: [],
+        issues: [],
+        user: '',
+        apiKey: '',
+        checked: false,
+        hours: '',
+        comment: '',
+        activity: 'Activity:',
+        activityId: '',
+        overTime: false,
+        placeName: '',
+        places: [],
+        date: '2019-10-11',
+      };
+    }
+    placeSubmitHandler = () => {
+      this.props.add(this.state.apiKey);
+    };
+    trackTime = () => {
+      console.log(this.state.activityId);
+      postTime({
+        spent_on: this.state.date,
+        hours: this.state.hours,
+        comments: this.state.comment,
+        activity_id: this.state.activityId,
+      })
+        .then(response => {
+          console.log(response);
+        })
+        .catch(error => {
+          console.dir(error);
+        });
+    };
+  
+    checkOverTime = () => {
+      this.setState({checked: !this.state.checked});
+    };
+    render() {
+      const placeholder = {
+        label: this.state.activity,
+        value: this.state.activity,
+  
+        fontSize: 12,
+        fontWeight: 'bold',
+        color: 'purple',
+      };
+      return (
+        <View style={styles.body}>
+          <View style={styles.profile}>
+            <TextInput
+              style={{
+                height: 50,
+                width: '90%',
+                borderColor: '#FFF',
+                borderStyle: 'solid',
+                borderWidth: 1,
+                borderRadius: 5,
+                padding: 5,
+                margin: 5,
+                backgroundColor: 'white',
+              }}
+              placeholder="Enter your Api Key"
+              onChangeText={apiKey => this.setState({apiKey})}
+              value={this.state.apiKey}
+            />
+            <View style={styles.buttonContainerTop}>
+              {Platform.OS == 'ios' ? (
+                <Button
+                  onPress={this.placeSubmitHandler}
+                  title="Submit"
+                  color="#2bcccc"
+                />
+              ) : (
+                <Button onPress={this.placeSubmitHandler} title="Submit" />
+              )}
+            </View>
+          </View>
+          <View style={styles.container} />
+          <View style={styles.inputBody}>
+            <View style={styles.inputData}> 
+            <DatePicker
+              style={{width: 200, backgrondColor: '#FFF'}}
+              date={this.state.date}
+              mode="date"
+              placeholder="select date"
+              format="YYYY-MM-DD"
+              minDate="2000-05-01"
+              maxDate="2020-06-01"
+              confirmBtnText="Confirm"
+              cancelBtnText="Cancel"
+              customStyles={{
+                dateIcon: {
+                  position: 'absolute',
+                  left: 0,
+                  top: 4,
+                  marginLeft: 0,
+                },
+                dateInput: {
+                  marginLeft: 36,
+                },
+              }}
+              onDateChange={date => {
+                this.setState({date: date});;
+              }}
+            />
+            </View>
+            <TextInput
+              style={styles.inputStyle}
+              placeholder="Hours"
+              placeholderTextColor="#DDD"
+              onChangeText={hours => this.setState({hours})}
+              value={this.state.hours}
+            />
+            <TextInput
+              style={styles.inputStyle}
+              placeholder="Comment"
+              placeholderTextColor="#DDD"
+              onChangeText={comment => this.setState({comment})}
+              value={this.state.comment}
+            />
+            <RNPickerSelect
+              style={pickerSelectStyles}
+              placeholder="3333"
+              onValueChange={(value, key) =>
+                this.setState({activity: value, activityId: key})
+              }
+              // eslint-disable-next-line react/jsx-no-duplicate-props
+              placeholder={placeholder}
+              items={[
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: '', value: '', key: ''},
+                {label: 'Design', value: 'Design', key: '8'},
+                {label: 'Development', value: 'Development', key: '9'},
+                {label: 'Management', value: 'Management', key: '10'},
+                {label: 'Testing', value: 'Testing', key: '11'},
+                {label: 'Automation QA', value: 'Automation QA', keyId: '12'},
+              ]}
+            />
+            <CheckBox
+              center
+              title="OverTime"
+              checkedIcon="dot-circle-o"
+              uncheckedIcon="circle-o"
+              checked={this.state.checked}
+              onPress={this.checkOverTime}
+            />
+          </View>
+          <View style={styles.buttonContainer}>
+            {Platform.OS == 'ios' ? (
+              <Button onPress={this.trackTime} title="Submit" color="#FFF" />
+            ) : (
+              <Button onPress={this.trackTime} title="Submit" />
+            )}
+          </View>
+        </View>
+      );
+    }
   }
-}
+  const styles = StyleSheet.create({
+    inputData:{
+      backgroundColor: '#FFF',
+      
+    },
+    container: {
+      paddingTop: 30,
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+    },
+    inputContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      width: '100%',
+    },
+    placeInput: {
+      width: '70%',
+    },
+    placeButton: {
+      width: '30%',
+    },
+    listContainer: {
+      width: '100%',
+    },
+    chosenDate: {
+      flex: 1,
+      justifyContent: 'center',
+    },
+    inputBody: {
+      
+      marginTop: 30,
+      marginBottom: 20,
+      width: '90%',
+      display: 'flex',
+      alignItems: 'center',
+    },
+    inputStyle: {
+      height: 50,
+      width: '100%',
+      borderColor: '#DDD',
+      borderStyle: 'solid',
+      borderWidth: 1,
+      borderRadius: 5,
+      padding: 10,
+      color: '#FFF',
+      margin: 5,
+      backgroundColor: '#2bcccc',
+    },
+    buttonContainer: {
+      height: 50,
+      width: '50%',
+      borderColor: '#FFF',
+      borderRadius: 5,
+      padding: 5,
+  
+      ...Platform.select({
+        ios: {
+          backgroundColor: '#2bcccc',
+        },
+        android: {},
+      }),
+    },
+    buttonContainerTop: {
+      height: 50,
+      width: '50%',
+      borderColor: '#FFF',
+      borderRadius: 5,
+      padding: 5,
+  
+      ...Platform.select({
+        ios: {
+          backgroundColor: '#FFF',
+        },
+        android: {},
+      }),
+    },
+    body: {
+      alignItems: 'center',
+      display: 'flex',
+      justifyContent: 'space-between',
+      margin: 0,
+      width: '100%',
+    },
+    profile: {
+      backgroundColor: '#2bcccc',
+      height: 150,
+      width: '100%',
+      display: 'flex',
+      justifyContent: 'space-around',
+      alignItems: 'center',
+      borderStyle: 'solid',
+      borderColor: Colors.black,
+      borderBottomWidth: 1,
+    },
+
+  });
+  const pickerSelectStyles = StyleSheet.create({
+    inputIOS: {
+      fontSize: 16,
+      paddingVertical: 12,
+  
+      borderWidth: 1,
+      borderColor: 'gray',
+      borderRadius: 4,
+      color: 'black',
+    },
+    inputAndroid: {
+      fontSize: 16,
+      paddingHorizontal: 10,
+      paddingVertical: 8,
+      borderWidth: 0.5,
+      borderColor: 'purple',
+      borderRadius: 8,
+      color: 'black',
+      paddingRight: 30,
+    },
+  });
+  const mapStateToProps = state => {
+    return {
+      places: state.places.places,
+    };
+  };
+  
+  const mapDispatchToProps = dispatch => {
+    return {
+      add: name => {
+        dispatch(addPlace(name));
+      },
+    };
+  };
+  
+  export default connect(
+    mapStateToProps,
+    mapDispatchToProps,
+  )(Customization);
+  
