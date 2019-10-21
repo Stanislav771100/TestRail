@@ -67,7 +67,7 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
   
         fontSize: 12,
         fontWeight: 'bold',
-        color: 'purple',
+        color: 'purple', 
       };
       return (
         <View style={styles.body}>
